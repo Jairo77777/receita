@@ -3,6 +3,11 @@
   /*essa tag da L4 inpede que algumas medidas sejam somadas como é o casdo do padding da img fazendo com que a imagen do main fique fora do centro. */
   box-sizing: border-box;
 }
+:root{
+  font-family: "Alice", serif;
+  color: #573A37;
+
+}
 img{
   border-radius: 1rem;
 }
@@ -20,4 +25,14 @@ body{
 }
 img{
   margin: auto;
+}
+h1{
+  line-height: 140%;
+  font-size: 2.5rem;
+}
+h2{
+  font-size: 1.5rem;
+}
+h1, h2{
+  color:#291B1A;
 }
