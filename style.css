@@ -1,3 +1,23 @@
+*{
+  padding: 0;
+  /*essa tag da L4 inpede que algumas medidas sejam somadas como é o casdo do padding da img fazendo com que a imagen do main fique fora do centro. */
+  box-sizing: border-box;
+}
 img{
   border-radius: 1rem;
+}
+/* o cover serve para a imagen cobri 100% da tela sem se dividir como seria se essa tag não estivesse ai L7*/
+body{
+  background-image:url(assets/bg-image.jpg) ;
+  background-size: cover;
+}
+#page{
+    padding: 1.5rem;
+    width: 50rem;
+    background-color:#F0E8C2;
+    border-radius: 1.5rem;
+    margin: 3rem auto 6.25rem
+}
+img{
+  margin: auto;
 }
