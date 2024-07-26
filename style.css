@@ -1,5 +1,6 @@
 *{
   padding: 0;
+  margin: 0;
   /*essa tag da L4 inpede que algumas medidas sejam somadas como é o casdo do padding da img fazendo com que a imagen do main fique fora do centro. */
   box-sizing: border-box;
 }
@@ -13,7 +14,7 @@ img{
 }
 /* o cover serve para a imagen cobri 100% da tela sem se dividir como seria se essa tag não estivesse ai L7*/
 body{
-  background-image:url(assets/bg-image.jpg) ;
+  background-image:url(assets/Página\ de\ receita\ \(1\).jpg ) ;
   background-size: cover;
 }
 #page{
@@ -21,7 +22,17 @@ body{
     width: 50rem;
     background-color:#F0E8C2;
     border-radius: 1.5rem;
-    margin: 3rem auto 6.25rem
+    margin: 3rem auto 0 ;
+}
+main{
+  padding:1.5rem
+}
+.ingredients ul{
+  
+  padding-left: 1.625rem;
+}
+.preparation{
+  
 }
 img{
   margin: auto;
@@ -29,10 +40,28 @@ img{
 h1{
   line-height: 140%;
   font-size: 2.5rem;
+  margin-bottom: 0.25rem;
 }
 h2{
   font-size: 1.5rem;
+  padding-top: 1.5rem;
+  
+}
+.about p + p{
+  margin-top: 0.75rem;
+}
+p{
+  font-size: 1rem;
+  
 }
 h1, h2{
   color:#291B1A;
+  
+  font-weight: 400;
+  margin-bottom: 0.25rem;
+}
+footer{
+  color:#F0E8C2;
+  text-align: center;
+  padding: 1.75rem 0 3rem;
 }
